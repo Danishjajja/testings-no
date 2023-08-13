@@ -1,4 +1,3 @@
-"use strict";
 // var studentNames:string[]=["ali","ahmad","danish","jajja","hamid"]
 // studentNames.splice(3,10,"jutt")
 // console.log(studentNames);
@@ -14,10 +13,22 @@
 //     todoss.splice(todoss.length/2,1)
 //     }
 //     console.log(todoss);
-var num1 = 1;
-var num2 = 2;
-while (num1 <= 10) {
-    var num3 = num2 * num1;
-    console.log("2*" + num1 + "=", num3);
-    num1 = num1 + 1;
+// var num1:number = 1
+// var num2:number =5
+// while(num1<=10){
+//     var num3:number = num2*num1
+//     console.log("2*"+num1+"=",num3);
+//     num1=num1+1
+//     }
+//     var nums:number[]=[2,456,74,2,34,12 ,23]
+//     var sum:number=nums[1]+nums[3]
+// console.log(sum);
+// var names:string[]=["ali","danish","hamid","sultan","ahmad"]
+// names[2]="adil"
+// console.log(names);
+var names = ["ali", "danish", "hamid", "sultan", "ahmad"];
+function pushInarry() {
+    names[3] = "jajja";
+    console.log(names);
 }
+pushInarry();

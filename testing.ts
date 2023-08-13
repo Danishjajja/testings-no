@@ -16,13 +16,32 @@
 //     }
 //     console.log(todoss);
 
-    var num1:number = 1
-    var num2:number =2
-    while(num1<=10){
-        var num3:number = num2*num1
-        console.log("2*"+num1+"=",num3);
-        num1=num1+1
-        }
+    // var num1:number = 1
+    // var num2:number =5
+    // while(num1<=10){
+    //     var num3:number = num2*num1
+    //     console.log("2*"+num1+"=",num3);
+    //     num1=num1+1
+    //     }
+
+//     var nums:number[]=[2,456,74,2,34,12 ,23]
+//     var sum:number=nums[1]+nums[3]
+// console.log(sum);
+// var names:string[]=["ali","danish","hamid","sultan","ahmad"]
+// names[2]="adil"
+// console.log(names);
+// var names:string[]=["ali","danish","hamid","sultan","ahmad"]
+// function pushInarry(){
+//     names[3]="jajja"
+//     console.log(names)
+// }
+// pushInarry
+var num:number[]=[23,35,54,42,12,2,13]
+function minuss(num1:number[],num2:number[]){
+    var results:number=num1[2]+num2[3]
+    console.log(results)
+}
+
 
 
     
