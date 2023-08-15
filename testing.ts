@@ -29,19 +29,29 @@
 // console.log(sum);
 // var names:string[]=["ali","danish","hamid","sultan","ahmad"]
 // names[2]="adil"
-// console.log(names);
+// // console.log(names);
 // var names:string[]=["ali","danish","hamid","sultan","ahmad"]
 // function pushInarry(){
-//     names[3]="jajja"
+//     names.splice(2,0,"jajja")
 //     console.log(names)
 // }
-// pushInarry
-var num:number[]=[23,35,54,42,12,2,13]
-function minuss(num1:number[],num2:number[]){
-    var results:number=num1[2]+num2[3]
-    console.log(results)
-}
+// pushInarry()
+// var num:number[]=[23,35,54,42,12,2,13]
+// function minuss(num1:number[],num2:number[]){
+//     var results:number=num1[2]+num2[3]
+//     console.log(results)
+// }
 
+var suResult=(num1:number,num2:number):number =>num1+num2
+// var num1:number=4
+// var num2:number=3
+// var num3:number=num1+num2
+// return num3
+// console.log(num3);
+
+var howREsult:number =suResult(10,20)
+howREsult=howREsult+90
+console.log(howREsult)
 
 
     
